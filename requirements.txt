@@ -1,0 +1,6 @@
+numpy
+opencv-python
+tensorflow_gpu==2.4.1
+streamlit
+Pillow
+tensorflow==2.4.1
