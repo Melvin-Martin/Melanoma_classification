@@ -84,10 +84,7 @@ else:
         txt = str(int(prediction[0,7]*100))+'% '+"Vascular lesion"
         st.write(txt)
 
-    pred =  pd.DataFrame(prediction)
-    pred.columns = ["Actinic keratosis","Basal cell carcinoma","Benign keratosis","Dermatofibroma",
-                    "Melanoma","Melanocytic nevus","Squamous cell carcinoma","Vascular lesion"]
-    st.write(pred,use_column_width=True)
+   
 
 hide_streamlit_style = """
             <style>
